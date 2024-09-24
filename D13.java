@@ -17,7 +17,8 @@ public class D13 {
         Car principalCar = new Car("Hyundai","i20",2022,"While");
         Car vprincipalCar = new Car("Maruti","Swift",2020,"Grey");
         System.out.println("The two  cars parked in front of SMVITM are");
-        vprincipalCar.getCarDetails();        principalCar.getCarDetails();
+        principalCar.getCarDetails();
+        vprincipalCar.getCarDetails();       
 
     }
 }
